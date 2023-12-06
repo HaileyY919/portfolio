@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Berkshire";
+    src: url('BerkshireSwash-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "Gabriela";
+    src: url('Gabriela-Regular.ttf') format('truetype');
+  }
+header {
+    font-family: "Berkshire", 'Arial Narrow', Arial, sans-serif;
+    display: flex; 
+}nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul {
+    padding: .5em 1em;
+    margin: .5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    word-spacing: 3px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.list {
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+}
+h1 {
+    font-family: "Berkshire", 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: "Berkshire", 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+body {
+    font-family: "Gabriela", 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.Message {
+    float: right;
+    justify-items: flex-end;
+    padding: 30px;
+    margin-bottom: auto;
+    margin-right: 200px;
+}
+.Icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
