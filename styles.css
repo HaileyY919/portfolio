@@ -82,10 +82,19 @@ p {
         flex-direction: row;
     }
 }
-.Resume
-{
+.Resume {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
 }
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
