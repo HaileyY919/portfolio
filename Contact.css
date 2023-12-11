@@ -38,7 +38,7 @@ h1 {
 h2 {
     font-family: "Berkshire", 'Arial Narrow', Arial, sans-serif;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 body {
     font-family: "Gabriela", 'Arial Narrow', Arial, sans-serif;
@@ -54,15 +54,12 @@ main {
     flex-direction: column;
 }
 .Message {
-    float: right;
-    justify-items: flex-end;
-    padding: 30px;
-    margin-bottom: auto;
-    margin-right: 200px;
-}
-.Icons {
     display: flex;
     justify-content: center;
+}
+img {
+    padding-right: 5px;
+}
+.Logo {
     padding: 20px;
-    margin-bottom: 10px;
 }

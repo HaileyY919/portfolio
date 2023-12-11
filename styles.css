@@ -46,6 +46,9 @@ main {
     max-width: 1280px;
     margin: 0 auto;
 }
+img {
+    padding: 20px;
+}
   .MyPhoto {
     float: right;
     justify-items: flex-end;
@@ -78,4 +81,11 @@ p {
     .skills {
         flex-direction: row;
     }
+}
+.Resume
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
