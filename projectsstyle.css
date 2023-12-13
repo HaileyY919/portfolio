@@ -60,3 +60,7 @@ body {
 img {
     padding: 25px;
 }
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}

@@ -63,3 +63,11 @@ img {
 .Logo {
     padding: 20px;
 }
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+ul li a {
+    list-style: none;
+    text-decoration: none;
+}
