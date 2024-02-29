@@ -39,6 +39,7 @@ nav ul {
     justify-content: space-between;
     flex-direction: row;
     word-spacing: 3px;
+    font-size: x-large;
 }
 nav ul li{
     list-style-type: none;
