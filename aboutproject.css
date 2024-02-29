@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Berkshire";
-    src: url('BerkshireSwash-Regular.ttf') format('truetype');
+    font-family: "DIN";
+    src: url('DIN\ Alternate\ Bold.ttf') format('truetype');
   }
   @font-face {
-    font-family: "Gabriela";
-    src: url('Gabriela-Regular.ttf') format('truetype');
+    font-family: "Brush Script";
+    src: url('Brush\ Script.ttf') format('truetype');
   }
 header {
-    font-family: "Berkshire", 'Arial Narrow', Arial, sans-serif;
+    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     text-align: center;
 }
@@ -22,7 +22,7 @@ h3 {
 }
 body {
     background-color: whitesmoke;
-    font-family: "Gabriela", 'Arial Narrow', Arial, sans-serif;
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
 }
 .container {
     max-width: 3024px;
