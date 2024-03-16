@@ -97,6 +97,11 @@ a {
     list-style: none;
     text-decoration: none;
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
