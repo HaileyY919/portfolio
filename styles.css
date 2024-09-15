@@ -7,6 +7,9 @@
     src: url('Brush\ Script.ttf') format('truetype');
   }
 header {
+    background-color: #D5BFE0;
+    width: 100%;
+    color: white;
     display: flex; 
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
 }
@@ -22,6 +25,8 @@ h3 {
     text-align: center;
 }
 nav {
+    background-color: #D5BFE0;
+    color: white;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -39,18 +44,38 @@ nav ul li{
     list-style-type: none;
     padding: 20px;
 }
-body {
-    background-color: #D5BFE0;
-    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+a {
+    list-style: none;
+    text-decoration: none;
+    padding: 0%;
 }
-main {
-    max-width: 1280px;
-    margin: 0 auto;
+body {
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0%;
 }
 img {
     padding: 20px;
 }
-  .MyPhoto {
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p {
+    padding: 20px;
+    align-items: center;
+}
+#Me {
+    float: left;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  /* .MyPhoto {
     float: right;
     justify-items: flex-end;
     padding: 30px;
@@ -76,33 +101,7 @@ img {
 p {
     padding-left: 20px;
     align-items: center;
-}
-
-@media (min-width: 768px) {
-    .skills {
-        flex-direction: row;
-    }
-}
-.Resume {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-header nav ul li a {
-    list-style: none;
-    text-decoration: none;
-}
-a {
-    list-style: none;
-    text-decoration: none;
-}
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
+} */
 
 
 
