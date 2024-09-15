@@ -11,8 +11,13 @@ header {
     align-items: center;
     text-align: center;
 }
+h1 {
+    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 36pt;
+}
 p {
-    text-align: left;
+    text-align: center;
     padding: auto;
     margin-left: 50px;
     margin-right: 50px;
@@ -53,7 +58,6 @@ body {
     justify-content: center;
     margin: 20px;
     padding: 40px;
-    
 }
 @media(max-width:768px) {
     .photo-gallery{

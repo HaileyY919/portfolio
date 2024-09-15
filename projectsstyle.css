@@ -7,25 +7,21 @@
     src: url('Brush\ Script.ttf') format('truetype');
   }
 header {
+    background-color: #D5BFE0;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center; 
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-    display: flex; 
 }
 h1 {
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    font-size: 36pt;
 }
 h2 {
-    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-    padding: auto;
-    margin-left: 50px;
-    margin-right: auto;
-}
-h3 {
-    text-align: left;
-    padding: auto;
-    margin-left: 50px;
-    margin-right: auto;
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 nav {
     width: 100%;
@@ -39,29 +35,25 @@ nav ul {
     justify-content: space-between;
     flex-direction: row;
     word-spacing: 3px;
-    font-size: x-large;
+    font-size: 28pt;
 }
 nav ul li{
     list-style-type: none;
     padding: 20px;
 }
-p {
-    text-align: left;
-    padding: auto;
-    margin-left: 50px;
-    margin-right: auto;
-}
 body {
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
-    justify-content: left;
-    flex-direction: row;
-    background-color: #D5BFE0;
+    background-color: whitesmoke;
+    margin: 0%;
 }
-
 img {
     padding: 25px;
 }
 header nav ul li a {
     list-style: none;
     text-decoration: none;
+}
+.photos {
+    display: flex;
+    justify-content: center;
 }

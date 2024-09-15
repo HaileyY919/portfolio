@@ -6,10 +6,45 @@
     font-family: "Brush Script";
     src: url('Brush\ Script.ttf') format('truetype');
   }
-header {
+
+h1 {
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
     text-align: center;
+    font-size: 36pt;
+}
+h2 {
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul {
+    padding: .5em 1em;
+    margin: .5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    word-spacing: 3px;
+    font-size: 28pt;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+body {
+    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0%;
+}
+img {
+    padding: 25px;
+}
+header nav ul li a {
+    list-style: none;
+    text-decoration: none;
 }
 p {
     text-align: left;

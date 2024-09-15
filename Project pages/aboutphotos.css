@@ -11,8 +11,13 @@ header {
     align-items: center;
     text-align: center;
 }
+h1 {
+    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 36pt;
+}
 p {
-    text-align: left;
+    text-align: center;
     padding: auto;
     margin-left: 50px;
     margin-right: 50px;
@@ -32,15 +37,18 @@ body {
 }
 .photo-gallery {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .column {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .photo img {
+    justify-content: center;
     height: 250px;
     width: 300px;
     padding: 10px;
