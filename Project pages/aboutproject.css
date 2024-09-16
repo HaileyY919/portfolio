@@ -59,8 +59,11 @@ body {
     margin: 20px;
     padding: 40px;
 }
-@media(max-width:768px) {
+@media (max-width:768px) {
     .photo-gallery{
         flex-direction: column;
+    }
+    img {
+        width: 80%;
     }
 }

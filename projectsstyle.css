@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
     font-family: "DIN";
     src: url('DIN\ Alternate\ Bold.ttf') format('truetype');
   }
@@ -6,26 +6,33 @@
     font-family: "Brush Script";
     src: url('Brush\ Script.ttf') format('truetype');
   }
-header {
+  header {
     background-color: #D5BFE0;
     width: 100%;
     color: white;
-    display: flex;
-    align-items: center; 
+    display: flex; 
+    align-items: center;
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
-    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
     font-size: 36pt;
+    text-align: center;
+    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
-    font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
+h3 {
+    text-align: center;
+}
+#logo {
+    padding-top: 25px;
+}
 nav {
+    background-color: #D5BFE0;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 nav ul {
@@ -41,19 +48,22 @@ nav ul li{
     list-style-type: none;
     padding: 20px;
 }
+a {
+    list-style: none;
+    text-decoration: none;
+    padding: 0%;
+    margin:0%;
+}
 body {
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
     background-color: whitesmoke;
     margin: 0%;
 }
-img {
-    padding: 25px;
-}
-header nav ul li a {
-    list-style: none;
-    text-decoration: none;
-}
 .photos {
     display: flex;
     justify-content: center;
+    margin: 20px;
+}
+img {
+    padding: 20px;
 }
