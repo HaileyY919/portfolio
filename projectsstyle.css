@@ -1,4 +1,4 @@
-  @font-face {
+@font-face {
     font-family: "DIN";
     src: url('DIN\ Alternate\ Bold.ttf') format('truetype');
   }
@@ -6,14 +6,13 @@
     font-family: "Brush Script";
     src: url('Brush\ Script.ttf') format('truetype');
   }
-  header {
+header {
     background-color: #D5BFE0;
-    width: 100vw;
-    margin: 0%;
+    width: 100%;
+    color: white;
     display: flex; 
     align-items: center;
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-    margin-right: 0%;
 }
 h1 {
     font-size: 36pt;
@@ -21,29 +20,30 @@ h1 {
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 h3 {
     text-align: center;
 }
 #logo {
-    padding-top: 25px;
+    padding: 25px;
 }
 nav {
     background-color: #D5BFE0;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 nav ul {
+    padding: .5em 1em;
+    margin: .5em;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     word-spacing: 3px;
     font-size: 28pt;
-    background-color: #D5BFE0;
-    margin-right: 85px;
 }
 nav ul li{
     list-style-type: none;
@@ -53,97 +53,70 @@ a {
     list-style: none;
     text-decoration: none;
 }
+a img {
+    padding: 50px;
+}
 body {
     font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
     background-color: whitesmoke;
-    margin: 0;
-}
-.photos {
-    display: flex;
-    justify-content: center;
-    padding-left: 20px;
+    margin: 0%;
 }
 img {
     padding: 20px;
 }
-html {
-    margin: 0;
-    padding: 0;
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
-
-@media (min-width: 700px) {
-    @font-face {
-        font-family: "DIN";
-        src: url('DIN\ Alternate\ Bold.ttf') format('truetype');
-      }
-      @font-face {
-        font-family: "Brush Script";
-        src: url('Brush\ Script.ttf') format('truetype');
-      }
-      header {
-        background-color: #D5BFE0;
-        width: 103vw;
-        margin: 0%;
-        display: flex; 
-        align-items: center;
-        font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-        margin-right: 0%;
-    }
-    h1 {
-        font-size: 36pt;
-        text-align: center;
-        font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
-    }
-    h2 {
-        text-align: center;
-    }
-    h3 {
-        text-align: center;
-    }
-    #logo {
-        padding-top: 25px;
-    }
-    nav {
-        background-color: #D5BFE0;
-        width: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
-    nav ul {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        word-spacing: 3px;
-        font-size: 28pt;
-        background-color: #D5BFE0;
-        
-    }
-    nav ul li{
-        list-style-type: none;
-        padding: 20px;
-    }
-    a {
-        list-style: none;
-        text-decoration: none;
-    }
-    body {
-        font-family: "DIN", 'Arial Narrow', Arial, sans-serif;
-        background-color: whitesmoke;
-        margin: 0;
-    }
+p {
+    padding: 20px;
+    align-items: center;
+}
+.photos {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 1024px) {
     .photos {
         display: flex;
         justify-content: center;
-        padding-left: 20px;
+        align-items: center;
+        flex-direction: column;
     }
-    img {
+    a img {
         padding: 20px;
     }
-    html {
-        margin: 0;
-        padding: 0;
-    }
-    
 }
+  /* .MyPhoto {
+    float: right;
+    justify-items: flex-end;
+    padding: 30px;
+    margin-bottom: auto;
+    margin-right: 50px;
+  }
+.graphics {
+    font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    white-space: nowrap;
+    align-items: center;
+    margin-left: 50px;
+    width: 450px
+}
+.graphics img {
+ padding: 30px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    padding-left: 20px;
+    align-items: center;
+} */
+
+
+
+
+
