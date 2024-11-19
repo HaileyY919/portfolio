@@ -77,6 +77,9 @@ p {
     display: flex;
     justify-content: center;
 }
+#projects img {
+    width: 20%;
+}
 @media (max-width: 1024px) {
     .photos {
         display: flex;
@@ -86,6 +89,9 @@ p {
     }
     a img {
         padding: 20px;
+    }
+    #projects img {
+        width: 40%;
     }
 }
   /* .MyPhoto {
