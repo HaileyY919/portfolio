@@ -47,10 +47,9 @@ header nav ul li a {
     text-decoration: none;
 }
 p {
-    text-align: left;
-    padding: auto;
     margin-left: 50px;
     margin-right: 50px;
+    text-align: left;
 }
 h3 {
     text-align: center;

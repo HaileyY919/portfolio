@@ -20,7 +20,7 @@ h1 {
     font-family: "Brush Script", 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
 }
 h3 {
@@ -71,7 +71,6 @@ img {
 }
 p {
     padding: 20px;
-    align-items: center;
 }
 .photos {
     display: flex;
@@ -79,6 +78,9 @@ p {
 }
 #projects img {
     width: 20%;
+}
+#Hat {
+    width: 10%;
 }
 @media (max-width: 1024px) {
     .photos {
@@ -92,6 +94,9 @@ p {
     }
     #projects img {
         width: 40%;
+    }
+    #Hat {
+        width: 20%;
     }
 }
   /* .MyPhoto {
