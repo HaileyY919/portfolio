@@ -18,9 +18,10 @@ h1 {
 }
 p {
     text-align: center;
-    padding: auto;
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    justify-content: center;
 }
 h3 {
     text-align: center;
@@ -29,43 +30,17 @@ body {
     background-color: whitesmoke;
     font-family: "Gabriela", 'Arial Narrow', Arial, sans-serif;
 }
-.container {
-    max-width: 3024px;
-    width: 90%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+img {
+    padding: 20px;
 }
-.photo-gallery {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.column {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.photo {
-    display: flex;
-    justify-content: center;
-}
-.photo img {
-    justify-content: center;
-    height: 250px;
-    width: 300px;
-    padding: 10px;
-    align-items: center;
-}
-@media(max-width:768px) {
-    .photo-gallery{
+@media (max-width:768px) {
+    p {
         flex-direction: column;
-        justify-content: center;
+        margin: 0;
+        padding: 20px;
         align-items: center;
     }
-    img {
-        width: 80%;
+    header img {
+        width: 50%;
     }
 }
