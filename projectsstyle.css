@@ -91,10 +91,25 @@ p {
     overflow-y: hidden;
     padding: 20px;
     white-space: nowrap;
-    border: 20px solid #D5BFE0;
+  
     border-radius: 8px;
-   
+    scrollbar-width: thick;
   }
+  .gallery-container::-webkit-scrollbar {
+    height: 12px; /* Adjust the height of the horizontal scrollbar */
+    background: #D5BFE0; /* Background of the scrollbar track */
+  }
+  
+  .gallery-container::-webkit-scrollbar-thumb {
+    background: #5A2A7E; /* Color of the draggable scrollbar thumb */
+    border-radius: 10px; /* Round the scrollbar thumb */
+  }
+  
+  .gallery-container::-webkit-scrollbar-thumb:hover {
+    background: #5A2A7E; /* Color of the scrollbar thumb on hover */
+  }
+  
+
 .gallery {
     display: inline-flex;
     align-items: center;
